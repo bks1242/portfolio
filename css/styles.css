@@ -163,6 +163,9 @@ footer {
     display: flex;
     justify-content: center;
   }
+  .certification .project-item img {
+    width: 30%;
+  }
 }
 
 @media screen and (max-width:749px){
@@ -176,5 +179,14 @@ footer {
   }
   .contact-list a {
     padding: 5px;
+  }
+}
+
+@media screen and (max-width:483px) {
+  .education {
+    background-image: url(../images/edutech2.jpg);
+  }
+  .project-item video {
+    width: 94%;
   }
 }
